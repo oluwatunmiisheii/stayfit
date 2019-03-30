@@ -142,7 +142,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 35px;
     line-height: normal;
 }
 
@@ -326,15 +326,14 @@ header h1 .navbar-brand span {
 
 #home h1 {
     color: #ffffff;
+    margin-bottom: 20px;
 }
 
-#home h3 {
-    color: #f9f9f9;
-    font-size: 16px;
-    font-weight: 300;
+#home .caption p {
+    color: rgb(255, 255, 255, .7);
+    font-weight: lighter;
     margin: 0;
     padding: 5px 0 40px 0;
-    line-height: 2;
 }
 
 @media only screen and (max-width: 992px) {
@@ -494,6 +493,8 @@ Testimonials Section
 --------------------------------*/
 #quote{
     background: #f9f9f9;
+    display: flex;
+    justify-content: center;
 }
 
 #quote .item{
@@ -503,11 +504,13 @@ Testimonials Section
 #quote .item h3 {
     font-size: 16px;
     font-weight: bold;
-    margin: 25px 0;
+    padding-top: 25px;
     padding-left: 10px;
     color: #757575;
     text-align: left;
     font-style: italic;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 #quote .item p {
@@ -542,7 +545,7 @@ Testimonials Section
 #quote .icon .fa{
     color: #23a745;
     font-size: 35px;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 /*----------------------------

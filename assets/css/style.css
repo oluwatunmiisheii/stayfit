@@ -326,21 +326,19 @@ header h1 .navbar-brand span {
 
 #home h1 {
     color: #ffffff;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    line-height: .9;
 }
 
 #home .caption p {
-    color: rgb(255, 255, 255, .7);
-    font-weight: lighter;
+    color: rgb(255, 255, 255, .8);
+    font-size: 17px;
     margin: 0;
-    padding: 5px 0 40px 0;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: rgba(40, 167, 69, 0.7);
 }
 
-@media only screen and (max-width: 992px) {
-    .home-slider .item {
-        background-position: center center;
-    }
-}
 .home-slider .caption {
     display: flex;
     justify-content: center;
@@ -388,12 +386,12 @@ header h1 .navbar-brand span {
 }
 #home .owl-carousel .owl-nav .owl-next{
     float: right !important;
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 #home .owl-carousel .owl-nav .owl-prev {
     float: left !important;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 
